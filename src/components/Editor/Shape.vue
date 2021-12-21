@@ -285,7 +285,7 @@ export default {
             // 获取画布位移信息
             const editorRectInfo = this.editor.getBoundingClientRect()
 
-            // 获取 point 与实际拖动基准点的差值 @justJokee
+            // 获取 point 与实际拖动基准点的差值
         
             const pointRect = e.target.getBoundingClientRect()
             // 当前点击圆点相对于画布的中心坐标
